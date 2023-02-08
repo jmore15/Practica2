@@ -1,0 +1,63 @@
+<html lang="es">
+    <head>
+        <title>Parques de Costa Rica</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tarea2"/>
+        <meta name="keywords" content="html5, css, web, fidelitas"/>
+        <link href="css/est_seg.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Esta etiqueta indica al navagador que es un comentario -->
+        <header style="background-color: olive" class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Volcan Poás</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="chirripo.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ponderosa.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">Home</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="manuel_antonio.html">Manuel Antonio</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="chirripo.html">Chirripó</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="v_arenal.html">V. Arenal</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ponderosa.html">Ponderosa</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contenido">
+            <article>
+                <h2>Realice aquí la compra de su entrada para disfrutar un día completo en nuestro magnífico Volcán</h2><br/><br/>
+                <form action="#">
+
+
+                    <label>Nombre: </label><input type="text" id="text" placeholder="Nombre apellidos" size="30"/><br/>
+                    <label>Fecha de la visita: </label><input type="date" name="date" min="2021-01-01" max="2023-12-31"><br/>
+                    <label>Email: </label><input type="email" name="email" placeholder="a-z@a-z.xxx"><br/>
+                    <label>Teléfono: </label><input type="tel" name="tel" placeholder=""><br/>
+                    <label>Cantida de entradas: </label><input type="number" name="number" value="" min="1" max="10"><br/>
+                    <label>Entrada </label>Mañana: <input type="radio" name="horario" value="1"><br/>
+                    <label>Entrada </label>tarde: <input type="radio" name="horario" value="2"><br/>
+                    <Br/>
+                    <label>Acepto </label><input type="checkbox" id="checkbox" checked />Terminos y condicines<br/>
+                    <Br/>
+                    <label>reset </label><input type="reset" name="reset " value="Limpiar">
+                    <label>Submit </label><input type="submit" value=" Enviar"><br/>
+                </form>
+            </article>
+            <br/><br/>
+            <article>
+               
+                <iframe
+                    src= "https://www.sinac.go.cr/ES/ac/ACAHN/pnva/Paginas/default.aspx/"
+                    width="700"
+                    height="400"
+                    >
+                </iframe>
+            </article>
+
+        </section>
+
+        <footer style="background-color: olive" id="piePagina">Derechos Reservados &COPY; 2023 <address>San Juan, Heredia</address><address>Tel: 8899-7788</address></footer>
+    </body>
+</html>

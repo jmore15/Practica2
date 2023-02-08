@@ -1,0 +1,53 @@
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    height: 81%;
+    width: 15%;
+    background-color: #ffcc66;
+    color: black;
+    padding-left: 15px;
+    overflow: auto;
+}
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    height: 81%;
+    width: 85%;
+    color: black;
+    padding-left: 15px;
+    overflow: auto;
+}
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    color: white;
+    padding-left: 15px;
+    text-align: center;
+    
+}
+
+#piePagina address{
+    display: inline;
+}
+
+#imag{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+#imag_index{
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    height: 85%;
+    width: 85%;
+    overflow: auto;
+}

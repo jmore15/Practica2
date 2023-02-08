@@ -1,0 +1,25 @@
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    height: 81%;
+    width: 100%;
+    color: black;
+    padding-left: 15px;
+    overflow: auto;
+}
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    color: white;
+    padding-left: 15px;
+    text-align: center;
+    
+}
+
+#piePagina address{
+    display: inline;
+}
